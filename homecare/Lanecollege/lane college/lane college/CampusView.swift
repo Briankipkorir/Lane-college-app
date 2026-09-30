@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct CampusView: View {
+struct CampusServiceView: View {
     var body: some View {
         NavigationStack {
             List {
@@ -15,5 +15,5 @@ struct CampusView: View {
 }
 
 #Preview {
-    CampusView()
+    CampusServiceView()
 }

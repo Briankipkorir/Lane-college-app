@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SportsView: View {
+struct SportsScreen: View {
     var body: some View {
         Text("Sports")
             .font(.title)
@@ -10,5 +10,5 @@ struct SportsView: View {
 }
 
 #Preview {
-    NavigationStack { SportsView() }
+    NavigationStack { SportsScreen() }
 }

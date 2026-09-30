@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ContentView: View {
+struct EventsView: View {
     var body: some View {
         List {
             Section(header: Text("Events")) {
@@ -13,4 +13,8 @@ struct ContentView: View {
             }
         }
     }
+}
+
+#Preview {
+    EventsView()
 }

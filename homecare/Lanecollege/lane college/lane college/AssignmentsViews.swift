@@ -1,9 +1,9 @@
 import SwiftUI
 
 struct AssignmentsListView: View {
-    let course: Course
+    let course: StudentCourse
     @StateObject private var service = AcademicsService.shared
-    @State private var items: [Assignment] = []
+    @State private var items: [CourseAssignment] = []
     @State private var isLoading = false
 
     var body: some View {
@@ -12,7 +12,7 @@ struct AssignmentsListView: View {
                 NavigationLink(value: a) {
                     HStack(alignment: .top, spacing: 10) {
                         Image(systemName: a.isOverdue ? "exclamationmark.triangle.fill" : "doc.text.fill")
-                            .foregroundStyle(a.isOverdue ? .orange : .tint)
+                            .foregroundStyle(a.isOverdue ? Color .orange :Color .blue )
                             .frame(width: 24)
                         VStack(alignment: .leading, spacing: 4) {
                             Text(a.title).font(.headline)
@@ -30,7 +30,7 @@ struct AssignmentsListView: View {
                 }
             }
         }
-        .navigationDestination(for: Assignment.self) { a in
+        .navigationDestination(for: CourseAssignment.self) { a in
             AssignmentDetailView(assignment: a)
         }
         .navigationTitle(course.code)
@@ -45,7 +45,7 @@ struct AssignmentsListView: View {
 }
 
 struct AssignmentDetailView: View {
-    let assignment: Assignment
+    let assignment: CourseAssignment
     @ObservedObject private var service = AcademicsService.shared
     @State private var isPresentingSubmit = false
 
@@ -83,7 +83,7 @@ struct AssignmentDetailView: View {
 }
 
 struct SubmissionSheet: View {
-    let assignment: Assignment
+    let assignment: CourseAssignment
     @Environment(\.dismiss) private var dismiss
     @StateObject private var service = AcademicsService.shared
 
@@ -124,7 +124,7 @@ struct SubmissionSheet: View {
 
 #Preview {
     NavigationStack {
-        let course = Course(code: "TEST 100", title: "Preview Course", instructor: "Prof. Test", term: "Fall 2026")
+        let course = StudentCourse(code: "TEST 100", title: "Preview Course", instructor: "Prof. Test", term: "Fall 2026")
         AssignmentsListView(course: course)
     }
 }

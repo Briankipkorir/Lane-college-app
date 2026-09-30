@@ -1,23 +1,7 @@
 import SwiftUI
 
 // Academics
-struct ClassesView: View {
-    var body: some View {
-        List {
-            Text("Your classes will appear here.")
-        }
-        .navigationTitle("Classes")
-    }
-}
-struct AssignmentsView: View {
-    var body: some View {
-        List {
-            Text("Assignments and submissions.")
-        }
-        .navigationTitle("Assignments")
-    }
-}
-struct TranscriptsView: View {
+struct TranscriptsPlaceholderView: View {
     var body: some View {
         List {
             Text("View and transfer transcripts.")
@@ -90,27 +74,7 @@ struct ActivitiesView: View {
         .navigationTitle("Activities")
     }
 }
-struct ChatView: View {
-    var body: some View {
-        VStack {
-            Text("Student chat coming soon.")
-        }
-        .navigationTitle("Chat")
-    }
-}
-struct CafeteriaView: View {
-    var body: some View {
-        List {
-            Section("Today's Menu") {
-                Text("Menu items will appear here.")
-            }
-            Section("Rate Today's Food") {
-                Text("Ratings UI coming soon.")
-            }
-        }
-        .navigationTitle("Cafeteria")
-    }
-}
+
 struct GamesView: View {
     var body: some View {
         VStack {
@@ -143,14 +107,6 @@ struct SportsView: View {
             Text("Sports news and events.")
         }
         .navigationTitle("Sports")
-    }
-}
-struct EventsView: View {
-    var body: some View {
-        List {
-            Text("Upcoming campus events.")
-        }
-        .navigationTitle("Events")
     }
 }
 
@@ -192,11 +148,9 @@ struct SettingsView: View {
     }
 }
 
-#Preview("Cafeteria") {
-    CafeteriaView()
-}
 #Preview("Safety Report") {
     NavigationStack {
         SafetyReportView()
     }
 }
+

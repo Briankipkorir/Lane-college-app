@@ -24,17 +24,6 @@ struct CoursesView: View {
     }
 }
 
-struct ClassesView: View {
-    var body: some View {
-        VStack {
-            Text("Classes Placeholder")
-                .foregroundColor(.secondary)
-                .padding()
-            Spacer()
-        }
-    }
-}
-
 struct TranscriptsView: View {
     var body: some View {
         VStack {

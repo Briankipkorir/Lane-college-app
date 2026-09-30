@@ -21,7 +21,7 @@ struct ClassesView: View {
                             }
                         }
                     }
-                    .navigationDestination(for: Course.self) { course in
+                    .navigationDestination(for: StudentCourse.self) { course in
                         AssignmentsListView(course: course)
                     }
                 }

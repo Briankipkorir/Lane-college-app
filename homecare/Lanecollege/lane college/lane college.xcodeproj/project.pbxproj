@@ -6,13 +6,55 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A5541CA0305BA50A005EC3C8 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541C9F305BA50A005EC3C8 /* PlaceholderView.swift */; };
+		A5541CA2305BAE13005EC3C8 /* CampusServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CA1305BAE13005EC3C8 /* CampusServicesView.swift */; };
+		A5541CA4305BAE57005EC3C8 /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CA3305BAE57005EC3C8 /* AppointmentView.swift */; };
+		A5541CA6305BAE9E005EC3C8 /* CampusDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CA5305BAE9E005EC3C8 /* CampusDirectoryView.swift */; };
+		A5541CA8305BAEC9005EC3C8 /* LaneMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CA7305BAEC9005EC3C8 /* LaneMapView.swift */; };
+		A5541CAA305BB4E9005EC3C8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CA9305BB4E9005EC3C8 /* WebView.swift */; };
+		A5541CB0305BB6A9005EC3C8 /* LaneLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CAF305BB6A9005EC3C8 /* LaneLinksView.swift */; };
+		A5541CB2305BBC6D005EC3C8 /* AthleticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CB1305BBC6D005EC3C8 /* AthleticsView.swift */; };
+		A5541CB4305BBCE3005EC3C8 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CB3305BBCE3005EC3C8 /* TeamView.swift */; };
+		A5541CB6305BBD4F005EC3C8 /* AthleticsStaffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CB5305BBD4F005EC3C8 /* AthleticsStaffView.swift */; };
+		A5541CB8305BBFB0005EC3C8 /* UserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CB7305BBFB0005EC3C8 /* UserRole.swift */; };
+		A5541CBC305BC02D005EC3C8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541CBB305BC02D005EC3C8 /* LoginView.swift */; };
+		A5541D0A305C7593005EC3C8 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5541D09305C7593005EC3C8 /* SessionManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		A5541C9F305BA50A005EC3C8 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		A5541CA1305BAE13005EC3C8 /* CampusServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusServicesView.swift; sourceTree = "<group>"; };
+		A5541CA3305BAE57005EC3C8 /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		A5541CA5305BAE9E005EC3C8 /* CampusDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusDirectoryView.swift; sourceTree = "<group>"; };
+		A5541CA7305BAEC9005EC3C8 /* LaneMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaneMapView.swift; sourceTree = "<group>"; };
+		A5541CA9305BB4E9005EC3C8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A5541CAF305BB6A9005EC3C8 /* LaneLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaneLinksView.swift; sourceTree = "<group>"; };
+		A5541CB1305BBC6D005EC3C8 /* AthleticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleticsView.swift; sourceTree = "<group>"; };
+		A5541CB3305BBCE3005EC3C8 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		A5541CB5305BBD4F005EC3C8 /* AthleticsStaffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleticsStaffView.swift; sourceTree = "<group>"; };
+		A5541CB7305BBFB0005EC3C8 /* UserRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRole.swift; sourceTree = "<group>"; };
+		A5541CBB305BC02D005EC3C8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A5541D09305C7593005EC3C8 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		A5A72488305A263200DAC8BE /* lane college.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lane college.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A5541D17305C8701005EC3C8 /* Exceptions for "lane college" folder in "lane college" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Contents.json,
+			);
+			target = A5A72487305A263200DAC8BE /* lane college */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A5A7248A305A263200DAC8BE /* lane college */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A5541D17305C8701005EC3C8 /* Exceptions for "lane college" folder in "lane college" target */,
+			);
 			path = "lane college";
 			sourceTree = "<group>";
 		};
@@ -32,6 +74,19 @@
 		A5A7247F305A263200DAC8BE = {
 			isa = PBXGroup;
 			children = (
+				A5541D09305C7593005EC3C8 /* SessionManager.swift */,
+				A5541CBB305BC02D005EC3C8 /* LoginView.swift */,
+				A5541CB5305BBD4F005EC3C8 /* AthleticsStaffView.swift */,
+				A5541CB7305BBFB0005EC3C8 /* UserRole.swift */,
+				A5541CB3305BBCE3005EC3C8 /* TeamView.swift */,
+				A5541CAF305BB6A9005EC3C8 /* LaneLinksView.swift */,
+				A5541CA1305BAE13005EC3C8 /* CampusServicesView.swift */,
+				A5541CA9305BB4E9005EC3C8 /* WebView.swift */,
+				A5541CA3305BAE57005EC3C8 /* AppointmentView.swift */,
+				A5541CA5305BAE9E005EC3C8 /* CampusDirectoryView.swift */,
+				A5541CA7305BAEC9005EC3C8 /* LaneMapView.swift */,
+				A5541CB1305BBC6D005EC3C8 /* AthleticsView.swift */,
+				A5541C9F305BA50A005EC3C8 /* PlaceholderView.swift */,
 				A5A7248A305A263200DAC8BE /* lane college */,
 				A5A72489305A263200DAC8BE /* Products */,
 			);
@@ -119,6 +174,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5541CAA305BB4E9005EC3C8 /* WebView.swift in Sources */,
+				A5541CB0305BB6A9005EC3C8 /* LaneLinksView.swift in Sources */,
+				A5541CB8305BBFB0005EC3C8 /* UserRole.swift in Sources */,
+				A5541CB4305BBCE3005EC3C8 /* TeamView.swift in Sources */,
+				A5541CB2305BBC6D005EC3C8 /* AthleticsView.swift in Sources */,
+				A5541CB6305BBD4F005EC3C8 /* AthleticsStaffView.swift in Sources */,
+				A5541CA8305BAEC9005EC3C8 /* LaneMapView.swift in Sources */,
+				A5541CA6305BAE9E005EC3C8 /* CampusDirectoryView.swift in Sources */,
+				A5541CA4305BAE57005EC3C8 /* AppointmentView.swift in Sources */,
+				A5541CBC305BC02D005EC3C8 /* LoginView.swift in Sources */,
+				A5541D0A305C7593005EC3C8 /* SessionManager.swift in Sources */,
+				A5541CA2305BAE13005EC3C8 /* CampusServicesView.swift in Sources */,
+				A5541CA0305BA50A005EC3C8 /* PlaceholderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

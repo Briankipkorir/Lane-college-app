@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct NewsView: View {
+struct NewsScreen: View {
     var body: some View {
         Text("News")
             .font(.title)
@@ -10,5 +10,5 @@ struct NewsView: View {
 }
 
 #Preview {
-    NavigationStack { NewsView() }
+    NavigationStack { NewsScreen() }
 }

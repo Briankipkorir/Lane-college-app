@@ -1,8 +1,16 @@
-//
-//  WebView.swift
-//  lane college
-//
-//  Created by brian kim on 9/17/26.
-//
+import SwiftUI
+import SafariServices
 
-import Foundation
+struct WebView: UIViewControllerRepresentable {
+    let url: URL
+
+    func makeUIViewController(context: Context) -> SFSafariViewController {
+        SFSafariViewController(url: url)
+    }
+
+    func updateUIViewController(
+        _ uiViewController: SFSafariViewController,
+        context: Context
+    ) {
+    }
+}

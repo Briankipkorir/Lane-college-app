@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct CafeteriaView: View {
+struct CafeteriaScreen: View {
     var body: some View {
         Text("Cafeteria Menu")
             .font(.title)
@@ -10,5 +10,5 @@ struct CafeteriaView: View {
 }
 
 #Preview {
-    NavigationStack { CafeteriaView() }
+    NavigationStack { CafeteriaScreen() }
 }

@@ -1,4 +1,5 @@
 import Foundation
+import Combine
 
 @MainActor
 final class CafeteriaService: ObservableObject {
@@ -45,3 +46,4 @@ final class CafeteriaService: ObservableObject {
         objectWillChange.send()
     }
 }
+

@@ -1,6 +1,6 @@
 import Foundation
 
-struct Course: Identifiable, Codable, Hashable {
+struct StudentCourse: Identifiable, Codable, Hashable {
     let id: UUID
     var code: String // e.g., CS 101
     var title: String
@@ -16,7 +16,7 @@ struct Course: Identifiable, Codable, Hashable {
     }
 }
 
-struct Assignment: Identifiable, Codable, Hashable {
+struct CourseAssignment: Identifiable, Codable, Hashable {
     let id: UUID
     var courseID: UUID
     var title: String
@@ -34,7 +34,7 @@ struct Assignment: Identifiable, Codable, Hashable {
     }
 }
 
-struct Submission: Identifiable, Codable, Hashable {
+struct AssignmentSubmission: Identifiable, Codable, Hashable {
     let id: UUID
     var assignmentID: UUID
     var submittedAt: Date
@@ -52,7 +52,7 @@ struct Submission: Identifiable, Codable, Hashable {
     }
 }
 
-extension Assignment {
+extension CourseAssignment {
     var isOverdue: Bool { Date() > dueDate }
     var dueDateString: String { dueDate.formatted(date: .abbreviated, time: .shortened) }
 }

@@ -5,16 +5,28 @@ struct MoreView: View {
         NavigationStack {
             List {
                 Section("Academics") {
-                    NavigationLink("Credits", destination: CreditsView())
-                    NavigationLink("Transfer Transcripts", destination: TranscriptsView())
+                    NavigationLink("Credits") {
+                        CreditsView()
+                    }
+                    NavigationLink("Transfer Transcripts") {
+                        TranscriptsView()
+                    }
                 }
                 Section("Communications") {
-                    NavigationLink("Email (Outlook)", destination: OutlookView())
-                    NavigationLink("Chapel", destination: ChapelView())
+                    NavigationLink("Email (Outlook)") {
+                        OutlookView()
+                    }
+                    NavigationLink("Chapel") {
+                        ChapelView()
+                    }
                 }
                 Section("About & Settings") {
-                    NavigationLink("About Lane College", destination: AboutView())
-                    NavigationLink("Settings", destination: SettingsView())
+                    NavigationLink("About Lane College") {
+                        AboutView()
+                    }
+                    NavigationLink("Settings") {
+                        SettingsView()
+                    }
                 }
             }
             .navigationTitle("More")
